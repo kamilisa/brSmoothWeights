@@ -118,10 +118,20 @@ Sets the brush circle color.
 Sets the line width of the brush circle.
 
 
-### Latest version: 1.1.1 (2018-12-30)
+### Latest version: 1.1.3 (2019-01-18)
 
 
 ## Changelog
+
+**1.1.3 (2019-01-18)**
+
+    - When re-selecting the tools the last influence selection as well as search string, if any, gets remembered.
+    - Fixed a smaller issue where the influence list gets rebuilt every time the tool gets selected even though the selected mesh didn't change. This caused a lag when activating the tool with larger hierarchies.
+    - Fixed an unnecessary error output to the linux terminal.
+
+**1.1.2 (2019-01-02)**
+
+    - Fixed a minor script error with Maya 2016.5 and below which occurs when trying to select affected influences through the influence list without having invoked the default Maya right-click menu yet.
 
 **1.1.1 (2018-12-30)**
 

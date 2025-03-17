@@ -4,13 +4,13 @@
 //  brSmoothWeights
 //
 //  Created by ingo on 11/18/18.
-//  Copyright (c) 2018 ingo. All rights reserved.
+//  Copyright (c) 2021 ingo. All rights reserved.
 //
 // ---------------------------------------------------------------------
 
 #include <string>
 
-static const std::string kVERSION = "1.1.3";
+static const std::string kVERSION = "1.2.0";
 
 #include <maya/MFnPlugin.h>
 
@@ -64,7 +64,7 @@ MStatus uninitializePlugin(MObject obj)
 // ---------------------------------------------------------------------
 // MIT License
 //
-// Copyright (c) 2018 Ingo Clemens, brave rabbit
+// Copyright (c) 2021 Ingo Clemens, brave rabbit
 // brSmoothWeights and brTransferWeights are under the terms of the MIT
 // License
 //
